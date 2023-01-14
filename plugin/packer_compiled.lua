@@ -74,6 +74,7 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+<<<<<<< HEAD
   ReplaceWithRegister = {
     loaded = true,
     path = "/home/jraby/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister",
@@ -88,11 +89,37 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jraby/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
+=======
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "/home/jraby/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/home/jraby/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/jraby/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+>>>>>>> 4bad8d646ed06026af70c99264da2df7f5a475b6
   },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/jraby/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/jraby/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/jraby/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-nightfly-colors"] = {
     loaded = true,

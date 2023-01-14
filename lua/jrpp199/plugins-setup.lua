@@ -28,6 +28,7 @@ end
 return packer.startup(function(use)
   use ("wbthomason/packer.nvim")
   use ("bluz71/vim-nightfly-colors")
+<<<<<<< HEAD
   
   -- essential plugins
   use("tpope/vim-surround")
@@ -39,6 +40,17 @@ return packer.startup(function(use)
   requires = {
     'nvim-tree/nvim-web-devicons', -- optional, for file icons
   }
+=======
+  use {
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+  }
+  use {
+    'nvim-telescope/telescope.nvim', tag = '0.1.0',
+      -- or                            , branch = '0.1.x',
+    requires = { {'nvim-lua/plenary.nvim'} }
+>>>>>>> 4bad8d646ed06026af70c99264da2df7f5a475b6
 }
   if packer_bootstrap then
     require("packer").sync()
