@@ -28,7 +28,18 @@ end
 return packer.startup(function(use)
   use ("wbthomason/packer.nvim")
   use ("bluz71/vim-nightfly-colors")
-
+  
+  -- essential plugins
+  use("tpope/vim-surround")
+  use("vim-scripts/ReplaceWithRegister")
+  
+  --side bar
+  use {
+  'nvim-tree/nvim-tree.lua',
+  requires = {
+    'nvim-tree/nvim-web-devicons', -- optional, for file icons
+  }
+}
   if packer_bootstrap then
     require("packer").sync()
   end
