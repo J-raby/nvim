@@ -74,22 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-<<<<<<< HEAD
   ReplaceWithRegister = {
     loaded = true,
     path = "/home/jraby/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister",
     url = "https://github.com/vim-scripts/ReplaceWithRegister"
   },
-  ["nvim-tree.lua"] = {
-    loaded = true,
-    path = "/home/jraby/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
-    url = "https://github.com/nvim-tree/nvim-tree.lua"
-  },
-  ["nvim-web-devicons"] = {
-    loaded = true,
-    path = "/home/jraby/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
-    url = "https://github.com/nvim-tree/nvim-web-devicons"
-=======
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/home/jraby/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -104,7 +93,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jraby/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
->>>>>>> 4bad8d646ed06026af70c99264da2df7f5a475b6
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/jraby/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/nvim-tree/nvim-tree.lua"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/jraby/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -115,6 +113,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jraby/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["telescope-fzf-native.nvim"] = {
+    loaded = true,
+    path = "/home/jraby/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
+    url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
